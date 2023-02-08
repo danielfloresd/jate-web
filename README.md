@@ -104,7 +104,7 @@ For questions, please contact:
 
 ## 🌐Website
 
-[API Test Website](https://my-thoughts-social-api.herokuapp.com/)
+[JATE Web](https://jate-web.herokuapp.com/)
 
 ## 👨‍💻Programming Languages
 
