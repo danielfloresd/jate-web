@@ -32,11 +32,27 @@ registerRoute(
   ({ request }) => ["style", "script", "worker"].includes(request.destination),
   new StaleWhileRevalidate({
     // name of cache storage.
-    cacheName: "jate-cache",
+    cacheName: "asset-cache",
     plugins: [
       // plugin caches responses to a maximum-age of 30 days
       new CacheableResponsePlugin({
         statuses: [0, 200],
+      }),
+    ],
+  })
+);
+
+registerRoute(
+  ({ request }) => request.destination === 'image',
+  new CacheFirst({
+    cacheName: 'my-image-cache',
+    plugins: [
+      new CacheableResponsePlugin({
+        statuses: [0, 200],
+      }),
+      new ExpirationPlugin({
+        maxEntries: 60,
+        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
       }),
     ],
   })
