@@ -41,5 +41,11 @@ export default class {
       console.log('The editor has lost focus');
       putDb(localStorage.getItem('content'));
     });
+
+    // Save the content of the editor when the window is closed
+    window.addEventListener('beforeunload', () => {
+      console.log('The window is closing');
+      putDb(localStorage.getItem('content'));
+    });
   }
 }
