@@ -13,7 +13,6 @@ JATE Web is a Progressive Web App that offers a simple interface for creating an
 - [Description](#description)
 - [Installation](#🛠️installation)
 - [Usage](#💻usage)
-- [API Routes](#🛣️api-routes)
 - [Dependencies](#🧩dependencies)
 - [License](#📛license)
 - [Contributing](#🤝contributing)
