@@ -1,11 +1,10 @@
 const header = `
 /* 
-    J  AA  TTTTTT EEEE 
-    J A  A   TT   E    
-    J AAAA   TT   EEE  
-J   J A  A   TT   E    
- JJJ  A  A   TT   EEEE                                                                                                               
-*/                          
+ ╦   ╔═╗  ╔╦╗  ╔═╗
+ ║   ╠═╣   ║   ║╣ 
+╚╝ o ╩ ╩ o ╩ o ╚═╝
+just.another.tiny.editor
+ */                          
 `;
 
 export { header };
