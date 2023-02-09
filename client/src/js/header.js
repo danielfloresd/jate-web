@@ -1,11 +1,10 @@
 const header = `
-/*
-     ██  █████  ████████ ███████ 
-     ██ ██   ██    ██    ██      
-     ██ ███████    ██    █████   
-██   ██ ██   ██    ██    ██      
- █████  ██   ██    ██    ███████                                                                                                                                                     
-     just.another.text.editor
+/* 
+    J  AA  TTTTTT EEEE 
+    J A  A   TT   E    
+    J AAAA   TT   EEE  
+J   J A  A   TT   E    
+ JJJ  A  A   TT   EEEE                                                                                                               
 */                          
 `;
 
