@@ -4,7 +4,7 @@
 
 ## Description
 
-JATE Web is a Progressive Web App that offers a simple interface for creating and editing text on any device. With its minimalistic design, you can focus on writing without any distractions. The app works offline, so you can continue working on your documents even without an internet connection.
+J.A.T.E Web is a Progressive Web App that offers a simple interface for creating and editing text on any device. With its minimalistic design, you can focus on writing without any distractions. The app works offline, so you can continue working on your documents even without an internet connection.
 
 <img src="./client/src/images/screenshot.jpg" width="500">
 
